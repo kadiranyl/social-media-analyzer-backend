@@ -12,5 +12,5 @@ export class SignUpDto {
   @IsNotEmpty()
   @IsString()
   @MinLength(3)
-  readonly hashedPassword: string;
+  readonly password: string;
 }
